@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gannascus.picturehandlingTests", "..\..\tests\gannascus.picturehandlingTests\gannascus.picturehandlingTests.csproj", "{B1206E4F-B185-476A-9035-9FD7ABBC1131}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0A21084F-8605-48A9-9D2B-2236158E3C68}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\tests\gannascus.picturehandlingTests\assets\testPicture1.jpg = ..\..\tests\gannascus.picturehandlingTests\assets\testPicture1.jpg
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gannascus.core", "gannascus.core\gannascus.core.csproj", "{3520F3C1-3390-4980-8F11-013493CC98A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1206E4F-B185-476A-9035-9FD7ABBC1131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1206E4F-B185-476A-9035-9FD7ABBC1131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1206E4F-B185-476A-9035-9FD7ABBC1131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1206E4F-B185-476A-9035-9FD7ABBC1131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3520F3C1-3390-4980-8F11-013493CC98A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3520F3C1-3390-4980-8F11-013493CC98A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3520F3C1-3390-4980-8F11-013493CC98A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3520F3C1-3390-4980-8F11-013493CC98A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1206E4F-B185-476A-9035-9FD7ABBC1131} = {0A21084F-8605-48A9-9D2B-2236158E3C68}
+	EndGlobalSection
+EndGlobal
