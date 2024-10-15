@@ -19,16 +19,16 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\gannascus.discovery\gannascus.discovery.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Update="assets\testPicture1.jpg">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
       <None Update="assets\testPicture2.jpg">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\gannascus\gannascus.core\gannascus.core.csproj" />
     </ItemGroup>
 
 </Project>

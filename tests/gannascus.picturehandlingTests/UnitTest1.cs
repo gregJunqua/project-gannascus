@@ -1,5 +1,5 @@
 using FluentAssertions;
-using gannascus.discovery.Core;
+using gannascus.core.PictureAnalysis;
 
 namespace gannascus.picturehandlingTests;
 
@@ -13,7 +13,7 @@ public class Tests
     [Test]
     public void reading_area_validation_dark_background()
     {
-        var path = Directory.GetCurrentDirectory(); 
+        var path = Directory.GetCurrentDirectory();
         var pictureAnalyser = new PictureAnalyser();
         var localisation = pictureAnalyser.Analyse(path+"/assets/testPicture1.jpg");
         localisation.Should().Be("OOC_Stanton_3_Arcorp");
@@ -24,7 +24,7 @@ public class Tests
     {
         var path = Directory.GetCurrentDirectory(); 
         var pictureAnalyser = new PictureAnalyser();
-        var localisation = pictureAnalyser.Analyse(path+"assets/testPicture1.jpg");
+        var localisation = pictureAnalyser.Analyse(path+"assets/testPicture2.jpg");
         localisation.Should().Be("OOC_Stanton_3_Arcorp");
     }
 }
